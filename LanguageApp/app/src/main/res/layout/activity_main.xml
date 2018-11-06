@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7DA"
+    android:orientation="vertical"
+    tools:context="com.example.yojan.languageapp.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+
+        android:background="#FD8E09"
+        android:text="Numbers"
+        android:textColor="#FFFF"
+        android:layout_height="88dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:padding="15dp"
+       />
+
+    <TextView
+        android:id="@+id/family"
+
+        android:background="#379237"
+        android:text="Family Members"
+        android:textColor="#FFFF"
+        android:layout_height="88dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:padding="15dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e20dad">
+        <TextView
+            android:layout_height="88dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/colors"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Colors"
+            android:textColor="#FFFF"
+
+            android:textSize="25sp"
+            android:padding="15dp"
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/phrases"
+
+        android:background="#16AfCA"
+        android:text="Phrases"
+        android:textColor="#FFFF"
+        android:layout_height="88dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:padding="15dp"
+        />
+</LinearLayout>
